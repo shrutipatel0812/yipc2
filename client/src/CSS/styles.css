@@ -1,0 +1,86 @@
+#root { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 4.5rem;
+  padding-top: 4.5rem;
+  padding-bottom: 5rem;
+  background: #ddd9d9;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.detail{
+  display: flex;
+  align-items: center;
+  margin-left: 15rem;
+  margin-top: 3rem;
+}
+.div_img{
+  width: 100px;
+	height: 100px;
+	clip-path: circle();
+  margin-left: 2rem;
+}
+
+.div_img > img{
+  object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.Tes__content{
+  width: 70%;
+  background: #F5D085;
+  padding: 3.5rem;
+  box-shadow: 10px 10px 10px gray;
+}
+.Tes__content p{
+  font-size: 3vh;
+  text-align: left;
+}
+
+@media screen and (max-width: 400px) {
+  .Tes__content{
+    padding: 1.5rem;
+  }
+  .Tes__content p{
+    font-size: 2vh;
+  }
+  .detail{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

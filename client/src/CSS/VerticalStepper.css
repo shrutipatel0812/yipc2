@@ -1,0 +1,45 @@
+.steps{
+    position: relative;
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top:1em ;
+ 
+}
+.main{
+    background-color: white;
+}
+.info{
+    font-size:1.3em;
+    font-weight: bold;
+    margin-left: 0.5em;
+   
+}
+.header{
+    position: relative;
+    margin-left:9%;
+    padding-top:10em ;
+   color:khaki;
+   /* text-shadow: 1px 1px rgb(231, 221, 125); */
+   
+
+}
+.header h1{
+    font-size: 3em;
+}
+@media screen and (max-width:500px){
+    .header h1{
+        
+        font-size: 2em;
+    }
+    .header{
+        padding-top:7em ;
+    }
+    .info{
+        font-size:1em;
+    } 
+    .steps{
+        position: relative;
+        width:90%;
+    }
+}

@@ -1,0 +1,70 @@
+.div_1{
+    height: auto;
+    background: #092d69;
+    padding: 10px;
+    padding-bottom: 5rem;
+    margin-bottom: -5rem;
+}
+
+.div_1 h1{
+    margin-left: 6.5rem;
+}
+.div_2{
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 20px;   */
+}
+.div_3{
+    /* width: 50%; */
+    height: 100%;
+    display: inline-block;
+    
+    
+}
+.div_4{
+    /* width: 50%; */
+    height: 100%;
+}
+
+.div_4 button{
+    height: 4rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    width: 85%;
+    background: black;
+    color: white;
+}
+h1, h3{
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f5d085;
+    text-transform: uppercase;
+}
+.div_4 h1{
+    padding-top: 20px;
+}
+.div_3 textarea, .div_4 textarea{
+    width: 32rem;
+    color: white;
+    /* height: 3rem; */
+    border: 1px solid black;
+    outline: transparent;
+    background: #092d69;
+    scroll-behavior: smooth;
+    border-radius: 5px;
+    border-left: 5px solid #000080;
+    border-top: 5px solid #000080;
+    border-right: 5px solid gray;
+    border-bottom: 5px solid gray;
+}
+
+@media screen and (max-width: 400px) {
+    .div_2{
+        display: block;
+    }
+    .div_3 textarea, .div_4 textarea{
+        width: 90%;
+    }
+}

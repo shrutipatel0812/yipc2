@@ -1,0 +1,51 @@
+.navbar-toggler-icon{
+    background: url("https://img.icons8.com/material-outlined/1x/menu.png");
+    background-repeat: no-repeat;
+}
+.navbar{
+    width: 100%;
+    min-height: 6vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    transition: all .7s ease-in;
+  }
+.navbar-brand img{
+  width: 140px;
+  height: 60px;
+}
+  .scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+#link {
+    display: inline-block;
+    position: relative;
+    color: black;
+    font-weight: bolder;
+  }
+  #link:hover{
+    color:orange;
+  }
+  
+  #link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+    transform-origin: bottom right;
+    transition: transform 0.30s ease-out;
+  }
+  
+ #link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
